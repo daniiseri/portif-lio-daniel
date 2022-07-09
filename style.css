@@ -186,14 +186,14 @@ p {
 
 #portfolio .project-img:after {
     content: '';
-    position: absolute;
     left: 0;
     top:0;
     height: 100%;
     width: 100%;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     opacity: 0.7;
-}
+    cursor: pointer;
+} 
 #portfolio .project-img img{
     transition: 0.5s ease transform;
 }
